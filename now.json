@@ -2,7 +2,19 @@
   "name": "anime, pacani",
   "version": 2,
   "builds": [
-    { "src": "*.html", "use": "@now/static" },
-    { "src": "*.js", "use": "@now/static" }
-  ]
+    {
+      "src": "*.html",
+      "use": "@now/static"
+    },
+    {
+      "src": "*.js",
+      "use": "@now/static"
+    }
+  ],
+  "scale": {
+    "bru1": {
+      "min": 1,
+      "max": "auto"
+    }
+  }
 }
